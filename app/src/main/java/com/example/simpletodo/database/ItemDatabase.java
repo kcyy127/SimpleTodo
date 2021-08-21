@@ -46,15 +46,6 @@ public abstract class ItemDatabase extends RoomDatabase {
             super.onCreate(db);
             databaseWriteExecutor.execute(() -> {
                 ItemDao dao = instance.itemDao();
-//                dao.deleteAll();
-//
-//                Item i1 = new Item("Save items", 2021, 3, 4, 2);
-//                Item i2 = new Item("Edit text", 2022,1, 27, 1);
-//                Item i3 = new Item("Fix appearance", 2019, 4, 23, 4);
-//
-//                dao.insert(new Item("Save items", 2021, 3, 4, 2));
-//                dao.insert(i2);
-//                dao.insert(i3);
             });
         }
     };

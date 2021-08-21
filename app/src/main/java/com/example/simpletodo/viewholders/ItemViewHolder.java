@@ -36,8 +36,9 @@ public class ItemViewHolder extends RecyclerView.ViewHolder{
 
     public void bind(Item item) {
         textItem.setText(item.getText());
-        textDueDate.setText("Due date: " + String.format("%d/%d/%d",
-                item.getYear(), item.getMonth(), item.getDate()));
+        String text_temp = "Due date: " + String.format("%d/%d/%d",
+                item.getYear(), item.getMonth(), item.getDate());
+        textDueDate.setText(text_temp);
 
         int p = item.getPriority();
         imagePriority.setText(String.valueOf(p));
@@ -56,14 +57,6 @@ public class ItemViewHolder extends RecyclerView.ViewHolder{
                 break;
             default:
         }
-
-//        textItem.setOnLongClickListener(new View.OnLongClickListener() {
-//            @Override
-//            public boolean onLongClick(View view) {
-//                longClickListener.onItemLongClicked(getAdapterPosition());
-//                return true;
-//            }
-//        });
 
     }
 

@@ -26,15 +26,11 @@ public class ActivityAddItem extends AppCompatActivity implements DatePickerDial
     private TextView heading;
     private Slider slider;
 
-    private AlertDialog dialogPriority;
-
     private String itemText;
     private int year = 1000;
     private int month = 10;
     private int date = 10;
     private int priority = 4;
-
-//    private Date temp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -97,13 +93,6 @@ public class ActivityAddItem extends AppCompatActivity implements DatePickerDial
             }
         });
 
-//        priorityDisplay.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                showPriorityDialog();
-//            }
-//        });
-
         doneButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -139,51 +128,6 @@ public class ActivityAddItem extends AppCompatActivity implements DatePickerDial
         });
 
     }
-
-
-
-//    private void showPriorityDialog() {
-//        AlertDialog.Builder builder = new AlertDialog.Builder(ActivityAddItem.this);
-//        View view = LayoutInflater.from(this).inflate(R.layout.layout_priority_selection, null);
-//        builder.setView(view);
-//
-//        dialogPriority = builder.create();
-//        dialogPriority.show();
-//
-//        view.findViewById(R.id.priority_1_button).setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                priority = 1;
-//                priorityDisplay.setText(String.valueOf(priority));
-//                dialogPriority.dismiss();
-//            }
-//        });
-//        view.findViewById(R.id.priority_2_button).setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                priority = 2;
-//                priorityDisplay.setText(String.valueOf(priority));
-//                dialogPriority.dismiss();
-//            }
-//        });
-//        view.findViewById(R.id.priority_3_button).setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                priority = 3;
-//                priorityDisplay.setText(String.valueOf(priority));
-//                dialogPriority.dismiss();
-//            }
-//        });
-//        view.findViewById(R.id.priority_4_button).setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                priority = 4;
-//                priorityDisplay.setText(String.valueOf(priority));
-//                dialogPriority.dismiss();
-//            }
-//        });
-//
-//    }
 
     @Override
     public void onDateSet(DatePicker datePicker, int i, int i1, int i2) {
