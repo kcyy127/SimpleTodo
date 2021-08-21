@@ -4,7 +4,7 @@
 
 Submitted by: **Kelly Yen**
 
-Time spent: **X** hours spent in total
+Time spent: **27** hours spent in total
 
 ## User Stories
 
