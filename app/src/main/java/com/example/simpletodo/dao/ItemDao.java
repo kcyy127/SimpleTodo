@@ -1,4 +1,4 @@
-package com.example.simpletodo2.dao;
+package com.example.simpletodo.dao;
 
 import androidx.lifecycle.LiveData;
 import androidx.room.Dao;
@@ -8,7 +8,7 @@ import androidx.room.OnConflictStrategy;
 import androidx.room.Query;
 import androidx.room.Update;
 
-import com.example.simpletodo2.entities.Item;
+import com.example.simpletodo.entities.Item;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.example.simpletodo2.viewmodels;
+package com.example.simpletodo.viewmodels;
 
 import android.app.Application;
 
@@ -6,8 +6,8 @@ import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
 
-import com.example.simpletodo2.entities.Item;
-import com.example.simpletodo2.repositories.ItemRepository;
+import com.example.simpletodo.entities.Item;
+import com.example.simpletodo.repositories.ItemRepository;
 
 import org.jetbrains.annotations.NotNull;
 

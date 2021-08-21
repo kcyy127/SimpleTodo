@@ -1,12 +1,12 @@
-package com.example.simpletodo2.repositories;
+package com.example.simpletodo.repositories;
 
 import android.app.Application;
 
 import androidx.lifecycle.LiveData;
 
-import com.example.simpletodo2.dao.ItemDao;
-import com.example.simpletodo2.database.ItemDatabase;
-import com.example.simpletodo2.entities.Item;
+import com.example.simpletodo.dao.ItemDao;
+import com.example.simpletodo.database.ItemDatabase;
+import com.example.simpletodo.entities.Item;
 
 import java.util.List;
 

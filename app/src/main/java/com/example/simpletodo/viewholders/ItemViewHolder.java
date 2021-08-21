@@ -1,21 +1,16 @@
-    package com.example.simpletodo2.viewholders;
+    package com.example.simpletodo.viewholders;
 
-import android.content.Intent;
-import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.simpletodo2.R;
-import com.example.simpletodo2.activities.ActivityAddItem;
-import com.example.simpletodo2.adapters.ItemsAdapter;
-import com.example.simpletodo2.entities.Item;
+import com.example.simpletodo.R;
+import com.example.simpletodo.adapters.ItemsAdapter;
+import com.example.simpletodo.entities.Item;
 
 import org.jetbrains.annotations.NotNull;
 

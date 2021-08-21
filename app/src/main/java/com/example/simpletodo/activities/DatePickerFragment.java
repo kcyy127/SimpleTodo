@@ -1,4 +1,4 @@
-package com.example.simpletodo2.activities;
+package com.example.simpletodo.activities;
 
 import android.app.DatePickerDialog;
 import android.app.Dialog;

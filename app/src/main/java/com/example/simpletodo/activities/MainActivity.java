@@ -1,9 +1,8 @@
-package com.example.simpletodo2.activities;
+package com.example.simpletodo.activities;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.content.ContextCompat;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -11,31 +10,20 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.Canvas;
 import android.os.Bundle;
 import android.view.ContextThemeWrapper;
-import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.PopupMenu;
-import android.widget.Toast;
 
-import com.example.simpletodo2.R;
-import com.example.simpletodo2.adapters.ItemsAdapter;
-import com.example.simpletodo2.dao.ItemDao;
-import com.example.simpletodo2.database.ItemDatabase;
-import com.example.simpletodo2.entities.Item;
-import com.example.simpletodo2.viewmodels.ItemViewModel;
+import com.example.simpletodo.R;
+import com.example.simpletodo.adapters.ItemsAdapter;
+import com.example.simpletodo.entities.Item;
+import com.example.simpletodo.viewmodels.ItemViewModel;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import org.jetbrains.annotations.NotNull;
-
-import java.util.ArrayList;
-import java.util.List;
-
-import it.xabaras.android.recyclerview.swipedecorator.RecyclerViewSwipeDecorator;
 
 public class MainActivity extends AppCompatActivity {
     public static final int REQUEST_CODE_ADD_ITEM = 1;

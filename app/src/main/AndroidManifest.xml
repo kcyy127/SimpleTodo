@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    package="com.example.simpletodo2">
+    package="com.example.simpletodo">
 
     <application
         android:allowBackup="true"
@@ -10,8 +10,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SimpleTodo2">
-        <activity android:name=".activities.ActivityAddItem"></activity>
-        <activity android:name=".activities.MainActivity">
+        <activity android:name="com.example.simpletodo.activities.ActivityAddItem"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="com.example.simpletodo.activities.MainActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

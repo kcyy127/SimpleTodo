@@ -1,4 +1,4 @@
-package com.example.simpletodo2.activities;
+package com.example.simpletodo.activities;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -8,22 +8,16 @@ import android.app.AlertDialog;
 import android.app.DatePickerDialog;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.DatePicker;
 import android.widget.EditText;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.simpletodo2.R;
-import com.google.android.material.slider.LabelFormatter;
+import com.example.simpletodo.R;
 import com.google.android.material.slider.Slider;
 
 import org.jetbrains.annotations.NotNull;
-
-import static com.example.simpletodo2.activities.MainActivity.REQUEST_CODE_ADD_ITEM;
-import static com.example.simpletodo2.activities.MainActivity.REQUEST_CODE_UPDATE_ITEM;
 
 public class ActivityAddItem extends AppCompatActivity implements DatePickerDialog.OnDateSetListener {
     private TextView doneButton;

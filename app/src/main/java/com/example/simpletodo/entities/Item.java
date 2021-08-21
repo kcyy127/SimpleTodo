@@ -1,4 +1,4 @@
-package com.example.simpletodo2.entities;
+package com.example.simpletodo.entities;
 
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;

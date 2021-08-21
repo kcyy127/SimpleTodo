@@ -1,4 +1,4 @@
-package com.example.simpletodo2.adapters;
+package com.example.simpletodo.adapters;
 
 import android.view.View;
 import android.view.ViewGroup;
@@ -8,8 +8,8 @@ import androidx.recyclerview.widget.DiffUtil;
 import androidx.recyclerview.widget.ListAdapter;
 
 
-import com.example.simpletodo2.entities.Item;
-import com.example.simpletodo2.viewholders.ItemViewHolder;
+import com.example.simpletodo.entities.Item;
+import com.example.simpletodo.viewholders.ItemViewHolder;
 
 import org.jetbrains.annotations.NotNull;
 

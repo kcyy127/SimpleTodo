@@ -1,4 +1,4 @@
-package com.example.simpletodo2.database;
+package com.example.simpletodo.database;
 
 import android.content.Context;
 
@@ -8,12 +8,11 @@ import androidx.room.Room;
 import androidx.room.RoomDatabase;
 import androidx.sqlite.db.SupportSQLiteDatabase;
 
-import com.example.simpletodo2.dao.ItemDao;
-import com.example.simpletodo2.entities.Item;
+import com.example.simpletodo.dao.ItemDao;
+import com.example.simpletodo.entities.Item;
 
 import org.jetbrains.annotations.NotNull;
 
-import java.util.concurrent.Executor;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
