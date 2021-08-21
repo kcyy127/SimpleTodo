@@ -20,7 +20,7 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [x] User can input task due date
+* [x] User can set task due date
 * [x] User can set priority level via a slider
 * [x] User can delete all tasks at once
 
